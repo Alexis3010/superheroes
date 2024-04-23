@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body, html{
+  box-sizing:border-box;
+}
+/*seccion encabezado*/
+#Descuentos{
+  background-color: #D1891C;
+  border: 5% solid;
+  border-color: transparent;
+  padding: 5px;
+}
+#Cartas
+  {
+    background-color: #00669F;
+    border: 5% solid;
+    border-color: transparent;
+    padding: 10px;
+    color:white;
+  }
+
+/*seccion batman*/
+#BATMANBIO
+{
+  display:block;
+  width:400px;
+  height: 570px;
+  border:5px solid;
+  border-color: transparent;
+  background-color: #F3F3F3;
+  border-radius: 50px 50px 5px 5px;
+  box-shadow: 0px 2px 2px;  
+  position: relative;
+  left:13%;
+  top:25px;
+  overflow: hidden;
+}
+#batmanfondo{
+  position:relative;
+  width: 400px;
+  height: 250px;
+}
+#batmanperfil{
+  z-index: 10;
+  position: relative;
+  left: 30.5%;
+  bottom: 110px;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+#corazonbatman{
+  position: relative;
+  bottom: 380px;
+  left: 10px;
+  width: 30px;
+}
+#Batman{
+  text-align: center;
+  position: relative;
+bottom: 110px;
+}
+#informacionbatman{
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+}
+#BATMANBIO button:last-child{
+  background-color: aqua;
+  position: relative;
+  bottom: 50px;
+  left: 40%;
+  border-radius: 5px;
+  border-color: transparent;
+}
+/*seccion mujer maravilla*/
+#MUJERMARAVILLA
+{
+  display:block;
+  width:400px;
+  height: 570px;
+  border:5px solid;
+  border-color: transparent;
+  background-color: #F3F3F3;
+  border-radius: 50px 50px 5px 5px;
+  box-shadow: 0px 2px 2px; 
+  position: relative;
+  left: 57%;
+  bottom: 554px;
+  overflow: hidden;
+}
+#maravillafondo{
+  position:relative;
+  width: 400px;
+  height: 250px;
+}
+#maravillaperfil{
+  z-index: 10;
+  position:relative;
+  left: 30.5%;
+  bottom: 145px;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+#corazonmaravilla{
+  position: relative;
+  bottom: 230px;
+  left: 10px;
+  width: 30px;
+}
+#mmaravilla{
+  text-align: center;
+  position: relative;
+bottom: 110px;
+}
+#informacionmaravilla{
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+}
+#MUJERMARAVILLA button:last-child{
+  background-color: aqua;
+  position: relative;
+  bottom: 67px;
+  left: 40%;
+  border-radius: 5px;
+  border-color: transparent;
+}
+/*seccion superman*/
+#SUPERMAN
+{
+  display:block;
+  width:400px;
+  height: 570px;
+  border:5px solid;
+  border-color: transparent;
+  background-color: #F3F3F3;
+  border-radius: 50px 50px 5px 5px;
+  box-shadow: 0px 2px 2px; 
+  position: relative;
+  left: 13%;
+  bottom: 520px;
+  overflow: hidden;
+}
+#supermanfondo{
+  position:relative;
+  width: 400px;
+  height: 250px;
+}
+#supermanperfil{
+  z-index: 10;
+  position:relative;
+  left: 30.5%;
+  bottom: 110px;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+#corazonsuperman{
+  position: relative;
+  bottom: 380px;
+  left: 10px;
+  width: 30px;
+}
+#Superman{
+  text-align: center;
+  position: relative;
+bottom: 110px;
+}
+#informacionsuperman{
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+}
+#SUPERMAN button:last-child{
+  background-color: aqua;
+  position: relative;
+  bottom: 67px;
+  left: 40%;
+  border-radius: 5px;
+  border-color: transparent;
+}
+/*seccion harley*/
+#Harley
+{
+  display:block;
+  width:400px;
+  height: 570px;
+  border:5px solid;
+  border-color: transparent;
+  background-color: #F3F3F3;
+  border-radius: 50px 50px 5px 5px;
+  box-shadow: 0px 2px 2px; 
+  position: relative;
+  left: 57%;
+  bottom: 1100px;
+  overflow: hidden;
+}
+#harleyfondo{
+  position:relative;
+  width: 400px;
+  height: 250px;
+}
+#harleyperfil{
+  z-index: 10;
+  position:relative;
+  left: 30.5%;
+  bottom: 110px;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+#corazonharley{
+  position: relative;
+  bottom: 380px;
+  left: 10px;
+  width: 30px;
+}
+#HARLEYQ{
+  text-align: center;
+  position: relative;
+bottom: 110px;
+}
+#informacionharley{
+  text-align: center;
+  position: relative;
+  bottom: 95px;
+}
+#Harley button:last-child{
+  background-color: aqua;
+  position: relative;
+  bottom: 67px;
+  left: 40%;
+  border-radius: 5px;
+  border-color: transparent;
+}
+footer{
+  color:white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color:#00669F;
+}
+#github{
+  position:relative;
+  left: 600px;
+  bottom: 20px;
+  height: 25px;
+}
